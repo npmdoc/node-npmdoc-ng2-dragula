@@ -1,6 +1,6 @@
 # npmdoc-ng2-dragula
 
-#### api documentation for  ng2-dragula (v1.3.1)  [![npm package](https://img.shields.io/npm/v/npmdoc-ng2-dragula.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-ng2-dragula) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-ng2-dragula.svg)](https://travis-ci.org/npmdoc/node-npmdoc-ng2-dragula)
+#### basic api documentation for  [ng2-dragula (v1.3.1)](https://github.com/valor-software/ng2-dragula#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-ng2-dragula.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-ng2-dragula) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-ng2-dragula.svg)](https://travis-ci.org/npmdoc/node-npmdoc-ng2-dragula)
 
 #### Simple drag and drop with dragula
 
@@ -21,10 +21,23 @@
 ```json
 
 {
-    "main": "index.js",
-    "version": "1.3.1",
+    "author": {
+        "name": "NathanWalker"
+    },
+    "bugs": {
+        "url": "https://github.com/valor-software/ng2-dragula/issues"
+    },
+    "dependencies": {
+        "dragula": "^3.7.2"
+    },
     "description": "Simple drag and drop with dragula",
-    "typings": "index.d.ts",
+    "devDependencies": {},
+    "directories": {},
+    "dist": {
+        "shasum": "10384c2400290433a6fb45e91c7466e688e3ad37",
+        "tarball": "https://registry.npmjs.org/ng2-dragula/-/ng2-dragula-1.3.1.tgz"
+    },
+    "homepage": "https://github.com/valor-software/ng2-dragula#readme",
     "keywords": [
         "angular",
         "dragula",
@@ -35,25 +48,31 @@
         "ng2-dragula",
         "ngx-dragula"
     ],
-    "author": {
-        "name": "NathanWalker"
-    },
     "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/valor-software/ng2-dragula.git"
-    },
+    "main": "index.js",
+    "maintainers": [
+        {
+            "name": "valorkin"
+        },
+        {
+            "name": "walkerrunpdx"
+        }
+    ],
     "name": "ng2-dragula",
-    "dependencies": {
-        "dragula": "^3.7.2"
-    },
+    "optionalDependencies": {},
     "peerDependencies": {
         "@angular/common": "^2.3.1 || >=4.0.0",
         "@angular/compiler": "2.4.3",
         "@angular/core": "^2.3.1 || >=4.0.0",
         "@angular/forms": "2.4.3"
     },
-    "devDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/valor-software/ng2-dragula.git"
+    },
+    "scripts": {},
+    "typings": "index.d.ts",
+    "version": "1.3.1",
     "bin": {}
 }
 ```
